@@ -23,7 +23,7 @@ nginx:
     - web:web
 
 data:
-  restart: always
+  restart: no
   image: postgres:latest
   volumes:
     - /var/lib/postgresql
