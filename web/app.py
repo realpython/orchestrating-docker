@@ -3,7 +3,7 @@
 
 from flask import Flask
 from flask import request, render_template
-from flask.ext.sqlalchemy import SQLAlchemy
+from flask_sqlalchemy import SQLAlchemy
 from config import BaseConfig
 
 
